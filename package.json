@@ -4,12 +4,18 @@
   "description": "Node tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index",
+    "osdemo": "node reference/os_demo",
+    "urldemo": "node reference/url_demo"
   },
   "keywords": [],
   "author": "Trent Teebken",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "uuid": "^3.4.0"
   }
 }
